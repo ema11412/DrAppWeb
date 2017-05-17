@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Chat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/EstiloChat.css"/>
+    </head>
+    <body>
+    <center><h1 class="Titulo"><font color=orange>Chat de Personal</font></h1></center>
+        <div class="container">
+        <form class="form__reg" action="JSP/Reserva/Insertar_Reserva.jsp">
+            <label for="Costo">Doctores</label>
+            <SELECT NAME="selCombo" SIZE=1 > 
+            <OPTION VALUE="link pagina 1">opcion1</OPTION>
+            <OPTION VALUE="link pagina 2">opcion2</OPTION>
+            <OPTION VALUE="link pagina 3">opcion3</OPTION>
+            <OPTION VALUE="link pagina 4">opcion4</OPTION> 
+            </SELECT> 
+            <label  for="Observacion">Mensaje</label>
+            <input class="input" style="font-size: 12pt;" type="text" name="mensaje" id="nombre" placeholder="Ingrese su Mensaje" required>
+            <div class="btn__form">
+            	<input class="btn__submit" type="submit" value="Enviar">  
+            </div>
+        </form>
+            </div>
+    </body>
+</html>
