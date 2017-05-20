@@ -3,6 +3,8 @@
 --%>
 <%@page import="linkedin.Post_Test"%>
 <%@page import="linkedin.LinkedInProfile"%>
+<%@page import="EnviarServer.enviar"%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -18,6 +20,8 @@
     
 
 String[] dat = Post_Test.getData();
+
+
 %>
  Nombre : <%= dat[0] %><br>
 <%= "" %><br>
@@ -26,6 +30,8 @@ String[] dat = Post_Test.getData();
  Informacion: <%= dat[2] %><br>
 <%= "" %><br>
  ID : <%= dat[3] %><br>
+
+
  
 
     </body>

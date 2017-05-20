@@ -1,19 +1,16 @@
-<%-- 
-    Document   : index
-    Created on : 13-02-2015, 04:46:55 PM
-    Author     : Seba
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>FORMULARIO PARA ENVIAR CORREO ELECTRONICO - TUTORIAL 10 JSP</title>
+        <title>Enviar Factura</title>
+        <link rel="stylesheet" href="CSS/EstiloChat.css"/>
     </head>
     <body>
         
-        <h2>FORMULARIO ENVIO CORREO ELECTRONICO</h2>
+     <center><h1 class="Letra"><font color="orange">Enviar factura por correo electronico</font></h1><br></center>
         
         <form action="resultado.jsp" method="post">
             <table>

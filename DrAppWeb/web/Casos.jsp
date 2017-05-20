@@ -1,6 +1,4 @@
-<%-- 
 
---%>
 <%@page import="linkedin.Post_Test"%>
 <%@page import="linkedin.LinkedInProfile"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
